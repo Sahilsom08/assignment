@@ -10,19 +10,19 @@ function Describe() {
   const { userData, setUserData } = useUserContext();
   const cardData = [
     {
-      image: "../../public/assets/designer.svg",
+      image: "assets/designer.svg",
       title: "I'm a designer looking to share my work",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, sunt.",
     },
     {
-      image: "../../public/assets/hiring.svg",
+      image: "assets/hiring.svg",
       title: "I'm looking to hire a designer",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, sunt.",
     },
     {
-      image: "../../public/assets/inspiration.svg",
+      image: "assets/inspiration.svg",
       title: "I'm looking for design inspiration",
       description:
         "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat, sunt.",
