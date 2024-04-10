@@ -23,7 +23,7 @@ const Header = ({avatar}) => {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className="md:border-b  w-full fixed top-0 left-0">
+    <div className="md:border-b z-10 w-full fixed top-0 left-0">
       <div className="md:flex items-center  bg-white py-2 md:px-10 px-7">
         {/* logo section */}
         <div className="  cursor-pointer ">
